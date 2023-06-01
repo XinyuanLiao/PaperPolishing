@@ -1,14 +1,14 @@
 # PaperPolishing
 可以根据中文直接输出符合英文论文表达习惯的英文翻译，并在后面给出对应的中文翻译供比较参考。
 
-## 配置
+# 配置
 ```
 pip install openai
 pip install PySimpleGUI
 ```
 除此之外注意改一下``` ChatGPT.py```中的代理设置和```api_key```设置
 
-## 快速开始
+# 快速开始
 可以将项目下载或者克隆下来，在编译器中打开。
 
 
@@ -17,20 +17,20 @@ pip install PySimpleGUI
 python GUI.py
 ```
 
-## 例子
+# 例子
 翻译并润色一段知网上随便找的一段摘要，**侵权联系我删掉！**
 
 
-值得注意的是，如果直接从中文翻译到英文，可能会有一些专有名词翻译的不对，需要仔细检查，从英文开始润色则会好一下
+**值得注意的是，如果直接从中文翻译到英文，可能会有一些专有名词翻译的不对，需要仔细检查，从英文开始润色则会好一些！**
 
 
-中文：
+## 中文：
 
 
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo.png)
 
 
-英文：
+## 英文：
 
 
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
