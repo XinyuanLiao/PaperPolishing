@@ -1,10 +1,10 @@
 import os
 import openai
 
-os.environ["HTTP_PROXY"] = "127.0.0.1:1082"
-os.environ["HTTPS_PROXY"] = "127.0.0.1:1082"
+os.environ["HTTP_PROXY"] = "你的代理地址"
+os.environ["HTTPS_PROXY"] = "你的代理地址"
 
-openai.api_key = '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'
+openai.api_key = 'openai api key'
 
 
 def response(question):
