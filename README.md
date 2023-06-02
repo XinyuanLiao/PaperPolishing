@@ -18,19 +18,18 @@ python GUI.py
 ```
 
 # 例子
-翻译并润色一段知网上随便找的一段摘要，**侵权联系我删掉！**
-
+可以实现中英互译（自动识别），和中文或英文的润色。
 
 **值得注意的是，如果直接从中文翻译到英文，可能会有一些专有名词翻译的不对，需要仔细检查，从英文开始润色则会好一些！**
 
 
-## 中文：
+## 润色：
 
 
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo.png)
 
 
-## 英文：
+## 翻译：
 
 
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
