@@ -1,10 +1,10 @@
 import os
 import openai
 
-os.environ["HTTP_PROXY"] = "你的代理地址"
-os.environ["HTTPS_PROXY"] = "你的代理地址"
+os.environ["HTTP_PROXY"] = "127.0.0.1:1082"
+os.environ["HTTPS_PROXY"] = "127.0.0.1:1082"
 
-openai.api_key = 'openai api key'
+openai.api_key = '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'
 
 
 def response(question):
@@ -21,7 +21,19 @@ def response(question):
 
 
 def translate(chinese):
-    q = "如果下列语句是中文，将其翻译成英文输出，如果是英文则重复这句话即可：" + chinese
+    q = "如果下列语句是中文，将其翻译成英文输出，不需要其他多余语句；如果是英文则重复这句话即可，不需要其他多余语句：" + chinese
+    rsp = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "中文到英文的翻译学家"},
+            {"role": "user", "content": q}
+        ]
+    )
+    return rsp.get("choices")[0]["message"]["content"]
+
+
+def only_translate(l):
+    q = "如果下列语句是中文，则直接列出其英文翻译不需要其他多余语句；如果是英文，则直接列出其中文翻译不需要其他多余语句：" + l
     rsp = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
