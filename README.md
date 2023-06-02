@@ -1,6 +1,7 @@
 
 ![SourceForge Platform](https://img.shields.io/sourceforge/platform/python?color=python&label=python&logo=python)
 [![](https://img.shields.io/badge/知乎-Blog-blue.svg)](https://zhuanlan.zhihu.com/p/634013986)
+![](https://img.shields.io/hexpm/l/plug)
 # 论文润色
 可以根据中文直接输出符合英文论文表达习惯的英文翻译，并在后面给出对应的中文翻译供比较参考。
 
