@@ -42,3 +42,16 @@ def only_translate(l):
         ]
     )
     return rsp.get("choices")[0]["message"]["content"]
+
+def check_connection():
+    try:
+        r = openai.Completion.create(
+            engine="text-davinci-003",
+            prompt="Hello",
+            max_tokens=10
+        )
+        return "连接成功！"
+    except requests.exceptions.RequestException:
+        return "网络连接失败，请重新设置代理地址！"
+    except openai.error.AuthenticationError:
+        return "API密钥无效，请重新设置API密钥！"
