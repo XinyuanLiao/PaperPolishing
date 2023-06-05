@@ -12,22 +12,23 @@
 
 2023.06.04 增加网络连接和API密钥debug功能
 
+2023.06.05 史诗级更新，GUI语言全面从PySimpleGUI切换为tkinter，界面设计改版
+
 # 配置
 ```
 pip install openai
-pip install PySimpleGUI
 ```
 除此之外注意改一下``` ChatGPT.py```中的代理设置和```api_key```设置
 
 !!!VPN尽量设置到美国而不是香港之类的
 
 # 快速开始
-可以将项目下载或者克隆下来，在编译器中打开。
+可以将项目下载或者克隆下来，在编译器中打开，运行build文件夹中的```gui.py```文件。
 
 
 或者命令行中：
 ```
-python GUI.py
+python ./build/gui.py
 ```
 
 # 例子
@@ -44,6 +45,12 @@ python GUI.py
 
 
 ## 翻译：
+
+
+![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
+
+
+## 全新界面
 
 
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
