@@ -50,10 +50,10 @@ python ./build/gui.py
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
 
 
-## 全新界面
+## 全新界面:
 
 
-![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
+![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo2.png)
 
 
 
