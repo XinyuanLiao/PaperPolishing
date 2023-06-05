@@ -1,8 +1,8 @@
 import os
 import openai
 
-os.environ["HTTP_PROXY"] = "代理地址"
-os.environ["HTTPS_PROXY"] = "代理地址"
+os.environ["HTTP_PROXY"] = "代理地址" # 前面记得加个“//”
+os.environ["HTTPS_PROXY"] = "代理地址" # 前面记得加个“//”
 
 openai.api_key = 'apikey'
 
