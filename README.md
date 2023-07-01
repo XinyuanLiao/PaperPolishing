@@ -15,6 +15,8 @@
 
 2023.06.05 史诗级更新，GUI语言全面从PySimpleGUI切换为tkinter，界面设计改版
 
+2023.07.01 软件稳定性更新，bug修复
+
 # 配置
 ```
 pip install openai
