@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/知乎-Blog-blue.svg)](https://zhuanlan.zhihu.com/p/634013986)
 ![](https://img.shields.io/hexpm/l/plug)
 # 论文润色
-可以根据中文直接输出符合英文论文表达习惯的英文翻译，并在后面给出对应的中文翻译供比较参考。
+可以根据中文直接输出符合英文论文表达习惯的英文翻译，并在后面给出对应的中文翻译供比较参考。（MAC系统最适配，Windows系统运行窗口可能有一点失真）
 
 **其实也相当于给大家一个调用gpt的模板项目，大家可以按需编程。**
 # 更新日志
