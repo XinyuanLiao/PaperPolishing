@@ -55,3 +55,6 @@ def check_connection():
         return "网络连接失败，请重新设置代理地址！"
     except openai.error.AuthenticationError:
         return "API密钥无效，请重新设置API密钥！"
+
+
+print(check_connection())
