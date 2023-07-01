@@ -14,7 +14,7 @@ import ChatGPT
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(
-    r"/Users/planck/Library/Mobile Documents/com~apple~CloudDocs/PaperPolishing/build/assets/frame0")
+    r"./assets/frame0")
 
 
 def relative_to_assets(path: str) -> Path:
