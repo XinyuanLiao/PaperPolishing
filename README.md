@@ -1,4 +1,5 @@
 
+
 ![SourceForge Platform](https://img.shields.io/sourceforge/platform/python?color=python&label=python&logo=python)
 [![](https://img.shields.io/badge/知乎-Blog-blue.svg)](https://zhuanlan.zhihu.com/p/634013986)
 ![](https://img.shields.io/hexpm/l/plug)
@@ -21,7 +22,7 @@
 ```
 pip install openai
 ```
-除此之外注意改一下``` ChatGPT.py```中的代理设置和```api_key```设置
+除此之外注意改一下``` ChatGPT.py```中的代理设置和```api_key```设置（代理地址前面记得加“//”）
 
 !!!VPN尽量设置到美国而不是香港之类的
 
@@ -58,9 +59,3 @@ python ./build/gui.py
 
 
 ![Image text](https://github.com/XinyuanLiao/PaperPolishing/blob/main/demo1.png)
-
-
-
-
-
-
